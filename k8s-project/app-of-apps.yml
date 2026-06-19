@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/ImManiKanta/ArgoCD.git
     targetRevision: main
-    path: manifests
+    path: k8s-project
   destination:
     server: https://kubernetes.default.svc # current EKS cluster
     namespace: argocd
