@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: prod-namespace
+  name: prod-ns
   labels:
-    project: prod-namespace
+    project: prod-ns
     environment: prod 
