@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cart
+  name: catalogue
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/ImManiKanta/k8s-project.git
     targetRevision: main
-    path: cart
+    path: catalogue
   destination:
     server: https://kubernetes.default.svc # current EKS cluster
     namespace: roboshop
