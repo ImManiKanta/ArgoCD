@@ -11,7 +11,7 @@ spec:
     path: catalogue
   destination:
     server: https://kubernetes.default.svc # current EKS cluster
-    namespace: roboshop-dev
+    namespace: roboshop
   syncPolicy:
     automated:
       prune: true # if deleted in git, delete in cluster also
