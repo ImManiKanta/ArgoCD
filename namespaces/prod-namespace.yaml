@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   name: prod-namespace
   labels:
-    project: prod-ns
+    project: prod-namespace
     environment: prod 
